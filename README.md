@@ -21,3 +21,5 @@ No known issues so far.
 ## Credits
 
 -   [@nirikshan](https://github.com/nirikshan)
+
+**Happy Click day!**
