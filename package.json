@@ -1,0 +1,36 @@
+{
+    "name": "clickify",
+    "displayName": "clickify",
+    "description": "extension for .cl extension support",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.36.0"
+    },
+    "icon": "icon.png",
+    "categories": [
+        "Programming Languages"
+    ],
+    "publisher": "xprin",
+    "homepage": "https://github.com/nirikshan/clickify/blob/master/README.md",
+    "bugs": {
+		"url": "https://github.com/nirikshan/clickify/issues",
+		"email": "nirikshanbhusal@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nirikshan/clickify"
+	},
+    "contributes": {
+        "languages": [{
+            "id": "click",
+            "aliases": ["click", "click"],
+            "extensions": [".cl"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "click",
+            "scopeName": "clickify.cl",
+            "path": "./syntaxes/click.tmLanguage.json"
+        }]
+    }
+}
